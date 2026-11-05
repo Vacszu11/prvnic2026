@@ -1,0 +1,14 @@
+def cčítání(a, b):
+    return a + b
+
+součet = cčítání(5, 7)
+print("Součet je:", součet)
+součet2 = cčítání(a=10, b=15)
+print("Součet je:", součet2)
+def delen(a, b):
+    if b == 0:
+        return "Nelze dělit nulou!"
+    else:
+        return a / b
+print("Dělení je:", delen(b= 4, a=8))
+      

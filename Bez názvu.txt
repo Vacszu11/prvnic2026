@@ -1,0 +1,3 @@
+
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -Colors @{ Error = 'Red'; Command = 'Yellow'; Parameter = 'DarkCyan' }

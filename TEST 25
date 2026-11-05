@@ -1,0 +1,8 @@
+# smycka for, generuje postoupnost čísel od 0 do 9
+for i in range(10):
+        print(f"druhá mocnina čísla {i} je {i*i}")
+
+jazyky = ["český jazyk", "anglický jazyk", "německý jazyk"]
+
+for jazyk in jazyky:
+    print(f"učím se {jazyk}")
